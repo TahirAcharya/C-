@@ -1,16 +1,6 @@
-// Online C++ compiler to run C++ program online
+// github.com/TahirAcharya/C-
 #include <iostream>
 using namespace std;
-int main() {
-
-Sorting object;
-object.set_value();
-object.sort_ascending();
-object.display();
-object.sort_descending();
-object.display();
-    return 0;
-}
 
 class Sorting
 {
@@ -34,7 +24,7 @@ class Sorting
         cout<<a[i]<<endl;
         }
             
-        }
+        
         }
         
         void sort_ascending()
@@ -76,11 +66,22 @@ class Sorting
             }
         }
     }
+        }
     
   
 };
 
 
+int main() {
+
+Sorting object;
+object.set_value();
+object.sort_ascending();
+object.display();
+object.sort_descending();
+object.display();
+return 0;
+}
 
 
 
